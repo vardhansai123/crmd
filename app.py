@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/saiva/Downloads/ss/Crop_recommendation.csv")
+    return pd.read_csv("Crop_recommendation.csv")
 
 
 # Train model
