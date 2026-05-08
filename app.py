@@ -80,14 +80,14 @@ st.pyplot(fig)
 # Input Section
 st.subheader("Enter Input Values")
 
-N = st.number_input("Nitrogen (N) (kg/ha)", min_value=0.0, max_value=140.0)
-P = st.number_input("Phosphorus (P) (kg/ha)", min_value=0.0, max_value=145.0)
-K = st.number_input("Potassium (K) (kg/ha)", min_value=0.0, max_value=205.0)
+N = st.number_input("Nitrogen (N) (0-140 kg/ha)", min_value=0.0, max_value=140.0)
+P = st.number_input("Phosphorus (P) (0-145 kg/ha)", min_value=0.0, max_value=145.0)
+K = st.number_input("Potassium (K) (0-205 kg/ha)", min_value=0.0, max_value=205.0)
 
-temperature = st.number_input("Temperature (°C)", min_value=0.0, max_value=50.0)
-humidity = st.number_input("Humidity (%)", min_value=0.0, max_value=100.0)
+temperature = st.number_input("Temperature (0-50 °C)", min_value=0.0, max_value=50.0)
+humidity = st.number_input("Humidity (0-100 %)", min_value=0.0, max_value=100.0)
 ph = st.number_input("pH (0–14)", min_value=0.0, max_value=14.0)
-rainfall = st.number_input("Rainfall (mm)", min_value=0.0, max_value=300.0)
+rainfall = st.number_input("Rainfall (0-300 mm)", min_value=0.0, max_value=300.0)
 
 
 # Prediction
